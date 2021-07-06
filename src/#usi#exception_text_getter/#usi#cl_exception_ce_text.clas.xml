@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/USI/CL_EXCEPTION_CE_TEXT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Cust-Evaluator: Exception text getters</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/USI/CL_EXCEPTION_CE_TEXT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/USI/CL_EXCEPTION_CE_TEXT</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/USI/CL_EXCEPTION_CE_TEXT</CLSNAME>
+     <CMPNAME>GET_TEXT_GETTER_CLASSNAME_INT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get text getter classname (internal)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/USI/CL_EXCEPTION_CE_TEXT</CLSNAME>
+     <CMPNAME>SINGLETON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Cust-Evaluator: Exception text getters</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
