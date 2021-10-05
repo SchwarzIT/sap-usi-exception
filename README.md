@@ -1,3 +1,4 @@
+[![SIT](https://img.shields.io/badge/SIT-awesome-blueviolet.svg)](https://it.schwarz)
 # sap-usi-exception
 This component is a depencency for quite some USI developments.
 
