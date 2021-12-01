@@ -1,5 +1,5 @@
-[![SIT](https://img.shields.io/badge/SIT-awesome-blueviolet.svg)](https://it.schwarz)
-[![USI](https://img.shields.io/badge/SIT-USI-blue)](https://github.com/SchwarzIT/sap-usi)
+[![SIT](https://img.shields.io/badge/SIT-About%20us-%236e1e6e)](https://it.schwarz)
+[![USI](https://img.shields.io/badge/USI-More%20Software-blue)](https://github.com/SchwarzIT/sap-usi)
 # sap-usi-exception
 This component is a depencency for quite some USI developments.
 
