@@ -1,6 +1,8 @@
 [![SIT](https://img.shields.io/badge/SIT-About%20us-%236e1e6e)](https://it.schwarz)
 [![USI](https://img.shields.io/badge/USI-More%20Software-blue)](https://github.com/SchwarzIT/sap-usi)
+
 # USI Exception
+## Purpose
 The component offers an extensible text getter API that can be used to convert exception texts into various common formats such as BAPIRET2 or SYMSG.
 
 It additionally contains our root exception class, that will be reused by all USI developments.
@@ -34,10 +36,10 @@ FUNCTION do_something.
 ENDFUNCTION.
 ```
 
-## Extensibility
+### Extensibility
 The text getter can handle OTR-based and T100-based exceptions, which should be enough for most cases. If you should ever have to deal with an exception, that can not be handled by the default implementations, you can enhance the solution by additional text extractors.
 
-### Creating a new text extractor
+#### Creating a new text extractor
 The class definition of a new text extractor should look like this:
 ```ABAP
 CLASS zcl_my_text_extractor DEFINITION FINAL CREATE PUBLIC.
@@ -72,7 +74,7 @@ ENDCLASS.
 ```
 **IMPORTANT**: The instance creation must be public and the declaration of the constructor must look **exactly** like in the example. Otherwise the class will be ignored!
 
-### Customizing
+#### Customizing
 The text extractors need to be maintained in table /USI/EXCEPT_TEXT via SM30.
 
 When searching for the most appropriate text extractor class, the customizing will be evaluated, as follows:
@@ -81,8 +83,8 @@ When searching for the most appropriate text extractor class, the customizing wi
 3. If number 1 and 2 do not apply, the text extractor will be inherited from the superclass
 4. Invalid text extractors will be ignored (Entering CL_GUI_ALV_GRID as a text getter will have no effect)
 
-# USI Root Exception
+## USI Root Exception
 As per an internal policy, all USI exceptions must inherit from the common root class /USI/CX_EXCEPTION. The class itself is not too interesting - it's just a technical dependency that you will need to make our code work.
 
-# Installation Guide
+## Installation Guide
 This component has no dependencies and no special authorizations are required.
