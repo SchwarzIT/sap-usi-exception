@@ -35,6 +35,9 @@ FUNCTION do_something.
   ENDTRY.
 ENDFUNCTION.
 ```
+The get_texts*-methods will return an internal table containing the text of the passed exception and its previous exceptions.
+
+The get_text*-methods will return the text of the passed exception. Previous exceptions will be ignored. The result type will be the line type of the corresponding get_texts*-method.
 
 ### Extensibility
 The text getter can handle OTR-based and T100-based exceptions, which should be enough for most cases. If you should ever have to deal with an exception, that can not be handled by the default implementations, you can enhance the solution by additional text extractors.
