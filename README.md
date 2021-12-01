@@ -7,12 +7,12 @@ The component offers an extensible text getter API that can be used to convert e
 
 It additionally contains our root exception class, that will be reused by all USI developments.
 
-# Exception text getter
+## Exception text getter
 There are quite some cases, in which you have to convert an exception into a bapiret2 structure or into another well-known message structure. A typical example would be an RFC function, that is using an object oriented API and will return a BAPIRETTAB for error messages. As exceptions might be T100-based or OTR-based and as they can have previous exceptions of different types, converting every relevant exception correctly can be a tedious task.
 
 That's why the logic was encapsulated in one central class.
 
-## How to use the text getter
+### How to use the text getter
 The text getter /USI/CL_EXCEPTION_TEXT_GETTER is compatible with CX_ROOT and can extract the text of every exception - no matter, if it is a T100-based or an OTR-based exception.
 
 Just create an instance of the class and use the instance methods to get the texts in the desired format.
