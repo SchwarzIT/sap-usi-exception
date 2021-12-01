@@ -376,7 +376,6 @@
        <CONT_NAME>TCTRL_/USI/EXCEPT_TEXT</CONT_NAME>
        <TYPE>TEXT</TYPE>
        <NAME>*/USI/EXCEPT_TEXT-EXCEPTION_CLASS</NAME>
-       <TEXT>Exception_class_name____________________</TEXT>
        <LINE>001</LINE>
        <COLUMN>001</COLUMN>
        <LENGTH>040</LENGTH>
@@ -393,7 +392,6 @@
        <CONT_NAME>TCTRL_/USI/EXCEPT_TEXT</CONT_NAME>
        <TYPE>TEXT</TYPE>
        <NAME>*/USI/EXCEPT_TEXT-TEXT_GETTER</NAME>
-       <TEXT>Text_getter_class_______________________</TEXT>
        <LINE>001</LINE>
        <COLUMN>002</COLUMN>
        <LENGTH>040</LENGTH>
@@ -424,7 +422,6 @@
        <CONT_NAME>TCTRL_/USI/EXCEPT_TEXT</CONT_NAME>
        <TYPE>TEMPLATE</TYPE>
        <NAME>/USI/EXCEPT_TEXT-EXCEPTION_CLASS</NAME>
-       <TEXT>______________________________</TEXT>
        <LINE>001</LINE>
        <COLUMN>001</COLUMN>
        <LENGTH>030</LENGTH>
@@ -442,7 +439,6 @@
        <CONT_NAME>TCTRL_/USI/EXCEPT_TEXT</CONT_NAME>
        <TYPE>TEMPLATE</TYPE>
        <NAME>/USI/EXCEPT_TEXT-TEXT_GETTER</NAME>
-       <TEXT>______________________________</TEXT>
        <LINE>001</LINE>
        <COLUMN>002</COLUMN>
        <LENGTH>030</LENGTH>

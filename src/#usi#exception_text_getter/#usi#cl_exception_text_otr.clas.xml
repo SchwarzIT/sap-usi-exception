@@ -25,6 +25,18 @@
      <LANGU>E</LANGU>
      <DESCRIPT>Structure of message variables</DESCRIPT>
     </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/USI/CL_EXCEPTION_TEXT_OTR</CLSNAME>
+     <CMPNAME>PRESERVE_TRAILING_SPACES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Preserve trailing spaces</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/USI/CL_EXCEPTION_TEXT_OTR</CLSNAME>
+     <CMPNAME>TY_MESSAGE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text field length 200</DESCRIPT>
+    </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>
  </asx:abap>
