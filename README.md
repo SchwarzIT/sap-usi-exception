@@ -1,10 +1,9 @@
 [![SIT](https://img.shields.io/badge/SIT-About%20us-%236e1e6e)](https://it.schwarz)
 [![USI](https://img.shields.io/badge/USI-More%20Software-blue)](https://github.com/SchwarzIT/sap-usi)
-# sap-usi-exception
-This component is a depencency for quite some USI developments.
+# USI Exception
+The component offers an extensible text getter API that can be used to convert exception texts into various common formats such as BAPIRET2 or SYMSG.
 
-# USI Root Exception
-As per an internal policy, all USI exceptions must inherit from the common root class /USI/CX_EXCEPTION. The class itself is not too interesting - it's just a technical dependency that you will need to make our code work.
+It additionally contains our root exception class, that will be reused by all USI developments.
 
 # Exception text getter
 There are quite some cases, in which you have to convert an exception into a bapiret2 structure or into another well-known message structure. A typical example would be an RFC function, that is using an object oriented API and will return a BAPIRETTAB for error messages. As exceptions might be T100-based or OTR-based and as they can have previous exceptions of different types, converting every relevant exception correctly can be a tedious task.
@@ -81,6 +80,9 @@ When searching for the most appropriate text extractor class, the customizing wi
 2. Entries for non-inherited interfaces have the second highest priority (if your exception class inherits from CX_STATIC_CHECK and implements IF_T100_MESSAGE, then the new interface would be more important than the superclass)
 3. If number 1 and 2 do not apply, the text extractor will be inherited from the superclass
 4. Invalid text extractors will be ignored (Entering CL_GUI_ALV_GRID as a text getter will have no effect)
+
+# USI Root Exception
+As per an internal policy, all USI exceptions must inherit from the common root class /USI/CX_EXCEPTION. The class itself is not too interesting - it's just a technical dependency that you will need to make our code work.
 
 # Installation Guide
 This component has no dependencies and no special authorizations are required.
