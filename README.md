@@ -1,6 +1,7 @@
 <!-- Links used on this page (Declaration) -->
 [CONTRIBUTING]:   ./docs/CONTRIBUTING.md
 [WIKI]:           ../../wiki
+[SYSTEM_SETUP]:   https://github.com/SchwarzIT/sap-usi#getting-started
 
 
 
@@ -14,6 +15,7 @@ The component offers an extensible text getter API that can be used to convert e
 It additionally contains our root exception class, that will be reused by all USI developments.
 
 ## Installation Guide
+Before starting, the system must be [set up for USI][SYSTEM_SETUP].   
 This component has no dependencies and no special authorizations are required.
 
 ## How to contribute
