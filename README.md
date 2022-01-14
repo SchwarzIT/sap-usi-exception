@@ -16,8 +16,8 @@ It additionally contains our root exception class, that will be reused by all US
 ## Installation Guide
 This component has no dependencies and no special authorizations are required.
 
-## Further information
-[Please refer to the wiki.][WIKI]
-
 ## How to contribute
 Please check our [contribution guidelines][CONTRIBUTING] to learn more about this topic.
+
+## Further information
+[Please refer to the wiki.][WIKI]
