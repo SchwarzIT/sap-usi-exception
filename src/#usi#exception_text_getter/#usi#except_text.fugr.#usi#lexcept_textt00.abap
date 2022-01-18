@@ -1,7 +1,5 @@
 *---------------------------------------------------------------------*
 *    view related data declarations
-*   generation date: 16.03.2021 at 11:25:29
-*   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 *...processing: /USI/EXCEPT_TEXT................................*
 DATA:  BEGIN OF STATUS_/USI/EXCEPT_TEXT              .   "state vector
