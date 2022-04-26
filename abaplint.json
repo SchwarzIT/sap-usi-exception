@@ -58,10 +58,7 @@
       "exclude": [],
       "reason": ""
     },
-    "chain_mainly_declarations": {
-      "exclude": [],
-      "reason": ""
-    },
+    "chain_mainly_declarations": false,
     "check_abstract": {
       "exclude": [],
       "reason": ""
