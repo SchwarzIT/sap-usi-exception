@@ -1,7 +1,5 @@
 *---------------------------------------------------------------------*
 *    program for:   TABLEFRAME_/USI/EXCEPT_TEXT
-*   generation date: 16.03.2021 at 11:25:28
-*   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 FUNCTION TABLEFRAME_/USI/EXCEPT_TEXT   .
 

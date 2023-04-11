@@ -12,12 +12,19 @@
    </VSEOINTERF>
    <DESCRIPTIONS>
     <SEOCOMPOTX>
-     <CLSNAME>/USI/IF_EXCEPTION_TEXT</CLSNAME>
      <CMPNAME>GET_TEXT_AS_SYMSG</CMPNAME>
      <LANGU>E</LANGU>
      <DESCRIPT>Get text as SYMSG-structure</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXT_AS_SYMSG</CMPNAME>
+     <SCONAME>R_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure of message variables</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
   </asx:values>
  </asx:abap>
 </abapGit>
