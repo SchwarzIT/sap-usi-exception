@@ -1,8 +1,7 @@
 <!-- Links used on this page (Declaration) -->
 [CONTRIBUTING]:   ./docs/CONTRIBUTING.md
 [WIKI]:           ../../wiki
-[SYSTEM_SETUP]:   https://github.com/SchwarzIT/sap-usi#getting-started
-
+[HOW_TO_PULL]:    https://github.com/SchwarzIT/sap-usi/blob/main/docs/how_to_pull.md
 
 
 [![SIT](https://img.shields.io/badge/SIT-About%20us-%236e1e6e)](https://it.schwarz/en)
@@ -15,8 +14,8 @@ The component offers an extensible text getter API that can be used to convert e
 It additionally contains our root exception class, that will be reused by all USI developments.
 
 ## Installation Guide
-Before starting, the system must be [set up for USI][SYSTEM_SETUP].   
 This component has no dependencies and no special authorizations are required.
+But as we are developing in our own namespace, you should consider [this][HOW_TO_PULL].
 
 ## How to contribute
 Please check our [contribution guidelines][CONTRIBUTING] to learn more about this topic.
