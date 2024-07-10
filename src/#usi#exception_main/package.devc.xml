@@ -6,14 +6,7 @@
     <CTEXT>Exception handling</CTEXT>
     <COMP_POSID>BC-ABA-LA</COMP_POSID>
     <COMPONENT>HLB0100065</COMPONENT>
-    <SRV_CHECK>X</SRV_CHECK>
    </DEVC>
-   <PERMISSION>
-    <SCOMPPDTLN>
-     <INTF_NAME>/USI/EXCEPTION_TEXT_GETTER</INTF_NAME>
-     <ERR_SEVER>NONE</ERR_SEVER>
-    </SCOMPPDTLN>
-   </PERMISSION>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -6,7 +6,6 @@
     <CTEXT>DDIC-Objects</CTEXT>
     <COMP_POSID>BC-ABA-LA</COMP_POSID>
     <COMPONENT>HLB0100065</COMPONENT>
-    <SRV_CHECK>X</SRV_CHECK>
    </DEVC>
   </asx:values>
  </asx:abap>
