@@ -1,6 +1,7 @@
 <!-- Links used on this page (Declaration) -->
 [CONTRIBUTING]:   ./docs/CONTRIBUTING.md
 [WIKI]:           ../../wiki
+[MAINT_CUST]:     ../../wiki/Maintain-Basic-Customizing
 
 
 [![SIT](https://img.shields.io/badge/SIT-About%20us-%236e1e6e)](https://it.schwarz/en)
@@ -26,6 +27,8 @@ It is recommended to create the repository using the follwing settings.
 | Labels             | SchwarzIT                                      |
 
 **Note**: The package name **must** start with ``/USI/`` to avoid issues when pulling the repository.
+
+After cloning the repository the basic customizing has to be maintained manually. The process is described [here][MAINT_CUST].
 
 ## How to contribute
 Please check our [contribution guidelines][CONTRIBUTING] to learn more about this topic.
