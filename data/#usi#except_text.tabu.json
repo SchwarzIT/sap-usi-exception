@@ -1,0 +1,10 @@
+[
+  {
+    "exception_class": "CX_ROOT",
+    "text_getter": "/USI/CL_EXCEPTION_TEXT_OTR"
+  },
+  {
+    "exception_class": "IF_T100_MESSAGE",
+    "text_getter": "/USI/CL_EXCEPTION_TEXT_T100"
+  }
+]

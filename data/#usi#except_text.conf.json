@@ -1,0 +1,8 @@
+{
+  "name": "/USI/EXCEPT_TEXT",
+  "skip_initial": false,
+  "type": "TABU",
+  "where": [
+    "EXCEPTION_CLASS = 'CX_ROOT' OR EXCEPTION_CLASS = 'IF_T100_MESSAGE'"
+  ]
+}
